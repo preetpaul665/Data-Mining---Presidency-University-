@@ -62,7 +62,7 @@ model <- keras_model_sequential() %>%
 model %>% compile(
 	optimizer = optimizer_adam(),
 	loss = "categorical_crossentropy",
-	metrics = äccuracy")
+	metrics = "accuracy")
 
 ## Summarizing the model
 
